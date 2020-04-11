@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px !important;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: #404040;
+    margin-bottom: 48px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="game.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Game</title>
+  </head>
+  <body>
+    <h1 id="name"><%= name %></h1>
+
+    <div class="container">
+      <h1 class="title">
+        Guessing Game
+      </h1>
+      <h4>
+        Please Choose A or B or C or D to guess the _______ character.
+      </h4>
+      <div class="answer-wrapper">
+        <div id="ans_1">_</div>
+        <div id="ans_2">_</div>
+        <div id="ans_3">_</div>
+        <div id="ans_4">_</div>
+      </div>
+
+      <div class="answer-wrapper">
+        <button type="button" class="btn btn-secondary" id="a">a</button>
+        <button type="button" class="btn btn-secondary" id="b">b</button>
+        <button type="button" class="btn btn-secondary" id="c">c</button>
+        <button type="button" class="btn btn-secondary" id="d">d</button>
+      </div>
+    </div>
+    <!-- <button id="post">post</button> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>

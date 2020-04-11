@@ -1,0 +1,13 @@
+.answer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-wrapper div {
+    margin: 16px 4px;
+}
+
+.answer-wrapper button {
+    margin: 0 8px;
+}
